@@ -2,7 +2,7 @@
 
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'vestergaard2');
+define('DB_PASSWORD', '');
 define('DB_NAME', 'super_dating');
 
 function db_connect(){
