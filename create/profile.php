@@ -32,7 +32,7 @@ try {
 
 
   $stmt->execute();
-//  header('Location:../comunity.php');
+header('Location:../comunity.php');
 
 } catch (PDOException $e) {
   echo "Error: " . $e->getMessage();
